@@ -1,0 +1,6 @@
+.cache
+coverage
+public
+data
+lib
+src/graphql-types.d.ts

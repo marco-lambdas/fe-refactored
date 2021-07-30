@@ -1,5 +1,8 @@
 {
+  "extends": "./paths.json",
   "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": "./src",
     "target": "es5",
     "lib": [
       "dom",
@@ -21,6 +24,13 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
   ]
 }
